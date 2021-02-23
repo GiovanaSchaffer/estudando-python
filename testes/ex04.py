@@ -1,0 +1,5 @@
+coisa = input("Digite qualquer coisa: ")
+print("O tipo dessa coisa é {}".format(type(coisa)))
+print("É numérico? {}".format(coisa.isnumeric()))
+print("É palavra? {} ".format(coisa.isalpha()))
+print("É alphanumérico? {}".format(coisa.isalnum()))
